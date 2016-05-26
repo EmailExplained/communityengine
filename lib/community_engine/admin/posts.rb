@@ -13,7 +13,7 @@ ActiveAdmin.register Post do
 
   controller do
     def scoped_collection
-      end_of_association_chain.unscoped
+      #end_of_association_chain.unscoped
     end
   end
 
